@@ -6,6 +6,8 @@ services:
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: root
+            MYSQL_USER: abelha
+            MYSQL_PASSWORD: beehive  
             ports:
               -3306:3308
             expose:
